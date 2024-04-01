@@ -14,7 +14,7 @@ export default function Options({value}) {
     return(
         <div className="border-4 h-[10vh] w-[15vh] ">
           <Button onClick={()=>{navigation('/Edit'), taskTitle(value)}} title={"Edit"} cssProps={"border w-[100%] bg-yellow-200 font-medium text-2xl  "}/>
-          <Button onClick={()=>{del(true),taskTitle(value)}} title={"delete"} cssProps={"border w-[100%] bg-yellow-200 font-medium text-2xl  "}/>
+          <Button onClick={()=>{del(true),console.log(value),taskTitle(value)}} title={"delete"} cssProps={"border w-[100%] bg-yellow-200 font-medium text-2xl  "}/>
           
         </div>
     )
