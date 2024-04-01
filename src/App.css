@@ -1,0 +1,51 @@
+.container{
+  height : 100vh;
+  overflow : hidden;
+  display : flex;
+  align-items : center;
+  justify-content : center;
+  
+  
+}
+.box {
+  height : 60%;
+  width : 35%;
+  border-radius : 10px;
+  box-shadow : 0 10px 10px 5px;
+  display : flex;
+  flex-direction : column;
+}
+.top-bar {
+  height : 40%;
+  background-color : pink;
+}
+.info-bar{
+  height : 40%;
+  background-color : white;
+  display : flex;
+  flex-direction: column;
+  align-items : center;
+  justify-content : center;  
+  font-size: 2rem;
+  margin-top: 10px;
+}
+.bottom-bar {
+  height : 20%;
+  border-top: 1px solid;
+  display : flex;
+  align-items : center;
+  justify-content : space-evenly;  
+}
+.profile {
+  height: 100px;
+  width: 100px;
+  background-color: aquamarine;
+  position: absolute;
+  border-radius: 50%;
+  top : 38%;
+  left : 46%;
+  border: 4px solid white;
+}
+.bottom-bar   > div   {
+  color: red;
+}
